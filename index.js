@@ -12,7 +12,7 @@ const questions = [
 
     },
     {
-        name: 'projDesc',
+        name: 'description',
         type: 'input',
         message: 'Project Description:'
     },

@@ -23,8 +23,10 @@ if (license === 'MIT') {
   return `[![License: MIT](https://opensource.org/licenses/MIT)`
 } else if (license === 'GPL') {
   return `[![License: GPL v3](https://www.gnu.org/licenses/gpl-3.0)`
-} else {
+} else if (license ==='Apache') {
   return `[![License](https://opensource.org/licenses/Apache-2.0)`
+} else {
+  return 'N/A'
 }
 };
 
@@ -33,7 +35,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge()}
 ## Project Description
-${data.projDescr}
+${data.description}
 ## Installation Instructions
 ${data.installInst}
 ##License
