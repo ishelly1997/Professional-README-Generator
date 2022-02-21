@@ -18,11 +18,11 @@ const questions = [
     },
     {
         name:'installInst',
-        type:'',
+        type:'input',
         message:'Installation Instructions:'
     },
     {
-        name:'Software License:',
+        name:'license',
         type:'list',
         choices:['MIT','GPL','Apache']
     },
