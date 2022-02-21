@@ -8,33 +8,33 @@ const questions = [
     {
         name: 'title',
         type: 'input',
-        message: 'Project Title'
+        message: 'Project Title:'
 
     },
     {
         name: 'projDesc',
         type: 'input',
-        message: 'Project Description'
+        message: 'Project Description:'
     },
     {
         name:'installInst',
         type:'',
-        message:'Installation Instructions'
+        message:'Installation Instructions:'
     },
     {
-        name:'license',
+        name:'Software License:',
         type:'list',
-        choices:['MIT','more licenses']
+        choices:['MIT','GPL','Apache']
     },
     {
         name: 'gitHub',
         type: 'input',
-        message: 'Enter your GitHub username'
+        message: 'Enter your GitHub username:'
     },
     {
         name:'email',
         type:'input',
-        message:'enter your email address'
+        message:'Enter your email address:'
     }
 ];
 
